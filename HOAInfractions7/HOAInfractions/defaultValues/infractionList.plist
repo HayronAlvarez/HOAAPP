@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Noise Violation</string>
+	<string>Improperly parked vehicles</string>
+	<string>Trash containers in the wrong area</string>
+	<string>Off-season holiday decorations</string>
+	<string>Pet violation</string>
+	<string>Unapproved architectural changes</string>
+	<string>Smoking in smoke-free areas</string>
+	<string>Illegal rentals</string>
+	<string>Overgrown landscaping</string>
+</array>
+</plist>

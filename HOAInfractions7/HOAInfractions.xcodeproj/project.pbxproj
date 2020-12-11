@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDAE99D0AF51DD4656B5958 /* libPods-HOAInfractions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F9E5DA274D71E9C609F06C /* libPods-HOAInfractions.a */; };
+		B0781D1925812FA800107ED7 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D1825812FA800107ED7 /* LogOutViewController.swift */; };
+		B0781D1D2581345600107ED7 /* currentlyLoggedSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D1C2581345600107ED7 /* currentlyLoggedSingleton.swift */; };
+		B0781D202581660900107ED7 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D1F2581660900107ED7 /* FiltersViewController.swift */; };
+		B0781D2225827CBB00107ED7 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D2125827CBB00107ED7 /* UpdateViewController.swift */; };
+		B0781D2425828AE400107ED7 /* FilterSettingSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D2325828AE400107ED7 /* FilterSettingSingleton.swift */; };
+		B0781D2625829FB100107ED7 /* showOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0781D2525829FB100107ED7 /* showOnMapViewController.swift */; };
+		B0A7D47025802AAC001959DA /* defaultComplaints.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0A7D46F25802AAC001959DA /* defaultComplaints.plist */; };
+		B0A7D47225802B95001959DA /* InfractionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7D47125802B95001959DA /* InfractionCell.swift */; };
+		B0A7D47425802B9C001959DA /* listComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7D47325802B9C001959DA /* listComplaintsViewController.swift */; };
+		B0B8E3352583CEB30014EC91 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8E3342583CEB30014EC91 /* ImageStore.swift */; };
+		B0BD8E20257FDFB2001C5735 /* createComplaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD8E1F257FDFB2001C5735 /* createComplaintViewController.swift */; };
+		B0BD8E22257FE7F7001C5735 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD8E21257FE7F6001C5735 /* logInViewController.swift */; };
+		DDF99ABE257EB0B400014A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF99ABD257EB0B400014A50 /* AppDelegate.swift */; };
+		DDF99AC0257EB0B400014A50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF99ABF257EB0B400014A50 /* SceneDelegate.swift */; };
+		DDF99AC5257EB0B400014A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF99AC3257EB0B400014A50 /* Main.storyboard */; };
+		DDF99AC8257EB0B400014A50 /* HOAInfractions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF99AC6257EB0B400014A50 /* HOAInfractions.xcdatamodeld */; };
+		DDF99ACA257EB0B600014A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF99AC9257EB0B600014A50 /* Assets.xcassets */; };
+		DDF99ACD257EB0B600014A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF99ACB257EB0B600014A50 /* LaunchScreen.storyboard */; };
+		DDF99AD5257ECC4C00014A50 /* infractionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF99AD4257ECC4C00014A50 /* infractionList.plist */; };
+		DDF99AD7257ECD6200014A50 /* defaultUsers.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF99AD6257ECD6200014A50 /* defaultUsers.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0A60563DDC3BEB17D8D7AB /* Pods-HOAInfractions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOAInfractions.release.xcconfig"; path = "Target Support Files/Pods-HOAInfractions/Pods-HOAInfractions.release.xcconfig"; sourceTree = "<group>"; };
+		34BC26527AC2453D3098286E /* Pods-HOAInfractions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOAInfractions.debug.xcconfig"; path = "Target Support Files/Pods-HOAInfractions/Pods-HOAInfractions.debug.xcconfig"; sourceTree = "<group>"; };
+		62F9E5DA274D71E9C609F06C /* libPods-HOAInfractions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HOAInfractions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0781D1825812FA800107ED7 /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		B0781D1C2581345600107ED7 /* currentlyLoggedSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentlyLoggedSingleton.swift; sourceTree = "<group>"; };
+		B0781D1F2581660900107ED7 /* FiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		B0781D2125827CBB00107ED7 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		B0781D2325828AE400107ED7 /* FilterSettingSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSettingSingleton.swift; sourceTree = "<group>"; };
+		B0781D2525829FB100107ED7 /* showOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showOnMapViewController.swift; sourceTree = "<group>"; };
+		B0A7D46F25802AAC001959DA /* defaultComplaints.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultComplaints.plist; sourceTree = "<group>"; };
+		B0A7D47125802B95001959DA /* InfractionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfractionCell.swift; sourceTree = "<group>"; };
+		B0A7D47325802B9C001959DA /* listComplaintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listComplaintsViewController.swift; sourceTree = "<group>"; };
+		B0B8E3342583CEB30014EC91 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		B0BD8E1F257FDFB2001C5735 /* createComplaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createComplaintViewController.swift; sourceTree = "<group>"; };
+		B0BD8E21257FE7F6001C5735 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		DDF99ABA257EB0B400014A50 /* HOAInfractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOAInfractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF99ABD257EB0B400014A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF99ABF257EB0B400014A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDF99AC4257EB0B400014A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF99AC7257EB0B400014A50 /* HOAInfractions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HOAInfractions.xcdatamodel; sourceTree = "<group>"; };
+		DDF99AC9257EB0B600014A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF99ACC257EB0B600014A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF99ACE257EB0B600014A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF99AD4257ECC4C00014A50 /* infractionList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = infractionList.plist; sourceTree = "<group>"; };
+		DDF99AD6257ECD6200014A50 /* defaultUsers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = defaultUsers.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF99AB7257EB0B400014A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDAE99D0AF51DD4656B5958 /* libPods-HOAInfractions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122CE5EBB9E6F658DB436320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F9E5DA274D71E9C609F06C /* libPods-HOAInfractions.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F06D74C90AD1EFE7B5EA8A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34BC26527AC2453D3098286E /* Pods-HOAInfractions.debug.xcconfig */,
+				0F0A60563DDC3BEB17D8D7AB /* Pods-HOAInfractions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDF99AB1257EB0B400014A50 = {
+			isa = PBXGroup;
+			children = (
+				DDF99ABC257EB0B400014A50 /* HOAInfractions */,
+				DDF99ABB257EB0B400014A50 /* Products */,
+				6F06D74C90AD1EFE7B5EA8A4 /* Pods */,
+				122CE5EBB9E6F658DB436320 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF99ABB257EB0B400014A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF99ABA257EB0B400014A50 /* HOAInfractions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF99ABC257EB0B400014A50 /* HOAInfractions */ = {
+			isa = PBXGroup;
+			children = (
+				DDF99AD8257ED3D400014A50 /* defaultValues */,
+				DDF99ABD257EB0B400014A50 /* AppDelegate.swift */,
+				B0BD8E1F257FDFB2001C5735 /* createComplaintViewController.swift */,
+				B0781D1C2581345600107ED7 /* currentlyLoggedSingleton.swift */,
+				B0B8E3342583CEB30014EC91 /* ImageStore.swift */,
+				B0781D2325828AE400107ED7 /* FilterSettingSingleton.swift */,
+				B0781D1F2581660900107ED7 /* FiltersViewController.swift */,
+				B0781D1825812FA800107ED7 /* LogOutViewController.swift */,
+				B0A7D47325802B9C001959DA /* listComplaintsViewController.swift */,
+				B0A7D47125802B95001959DA /* InfractionCell.swift */,
+				DDF99ABF257EB0B400014A50 /* SceneDelegate.swift */,
+				DDF99AC3257EB0B400014A50 /* Main.storyboard */,
+				B0781D2125827CBB00107ED7 /* UpdateViewController.swift */,
+				B0781D2525829FB100107ED7 /* showOnMapViewController.swift */,
+				B0BD8E21257FE7F6001C5735 /* logInViewController.swift */,
+				DDF99AC9257EB0B600014A50 /* Assets.xcassets */,
+				DDF99ACB257EB0B600014A50 /* LaunchScreen.storyboard */,
+				DDF99ACE257EB0B600014A50 /* Info.plist */,
+				DDF99AC6257EB0B400014A50 /* HOAInfractions.xcdatamodeld */,
+			);
+			path = HOAInfractions;
+			sourceTree = "<group>";
+		};
+		DDF99AD8257ED3D400014A50 /* defaultValues */ = {
+			isa = PBXGroup;
+			children = (
+				DDF99AD6257ECD6200014A50 /* defaultUsers.plist */,
+				DDF99AD4257ECC4C00014A50 /* infractionList.plist */,
+				B0A7D46F25802AAC001959DA /* defaultComplaints.plist */,
+			);
+			path = defaultValues;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF99AB9257EB0B400014A50 /* HOAInfractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF99AD1257EB0B600014A50 /* Build configuration list for PBXNativeTarget "HOAInfractions" */;
+			buildPhases = (
+				7A6A87775513E321BFC82E4D /* [CP] Check Pods Manifest.lock */,
+				DDF99AB6257EB0B400014A50 /* Sources */,
+				DDF99AB7257EB0B400014A50 /* Frameworks */,
+				DDF99AB8257EB0B400014A50 /* Resources */,
+				03B2BF615EA402DEECF23842 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOAInfractions;
+			productName = HOAInfractions;
+			productReference = DDF99ABA257EB0B400014A50 /* HOAInfractions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF99AB2257EB0B400014A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ariel Pentzke";
+				TargetAttributes = {
+					DDF99AB9257EB0B400014A50 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DDF99AB5257EB0B400014A50 /* Build configuration list for PBXProject "HOAInfractions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF99AB1257EB0B400014A50;
+			productRefGroup = DDF99ABB257EB0B400014A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF99AB9257EB0B400014A50 /* HOAInfractions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF99AB8257EB0B400014A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF99ACD257EB0B600014A50 /* LaunchScreen.storyboard in Resources */,
+				DDF99ACA257EB0B600014A50 /* Assets.xcassets in Resources */,
+				B0A7D47025802AAC001959DA /* defaultComplaints.plist in Resources */,
+				DDF99AD7257ECD6200014A50 /* defaultUsers.plist in Resources */,
+				DDF99AC5257EB0B400014A50 /* Main.storyboard in Resources */,
+				DDF99AD5257ECC4C00014A50 /* infractionList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B2BF615EA402DEECF23842 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOAInfractions/Pods-HOAInfractions-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOAInfractions/Pods-HOAInfractions-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HOAInfractions/Pods-HOAInfractions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6A87775513E321BFC82E4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOAInfractions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF99AB6257EB0B400014A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0781D2225827CBB00107ED7 /* UpdateViewController.swift in Sources */,
+				B0781D1D2581345600107ED7 /* currentlyLoggedSingleton.swift in Sources */,
+				B0A7D47425802B9C001959DA /* listComplaintsViewController.swift in Sources */,
+				DDF99ABE257EB0B400014A50 /* AppDelegate.swift in Sources */,
+				DDF99AC0257EB0B400014A50 /* SceneDelegate.swift in Sources */,
+				B0B8E3352583CEB30014EC91 /* ImageStore.swift in Sources */,
+				B0781D202581660900107ED7 /* FiltersViewController.swift in Sources */,
+				B0781D2625829FB100107ED7 /* showOnMapViewController.swift in Sources */,
+				DDF99AC8257EB0B400014A50 /* HOAInfractions.xcdatamodeld in Sources */,
+				B0BD8E20257FDFB2001C5735 /* createComplaintViewController.swift in Sources */,
+				B0A7D47225802B95001959DA /* InfractionCell.swift in Sources */,
+				B0781D1925812FA800107ED7 /* LogOutViewController.swift in Sources */,
+				B0781D2425828AE400107ED7 /* FilterSettingSingleton.swift in Sources */,
+				B0BD8E22257FE7F7001C5735 /* logInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDF99AC3257EB0B400014A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF99AC4257EB0B400014A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF99ACB257EB0B600014A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF99ACC257EB0B600014A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF99ACF257EB0B600014A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF99AD0257EB0B600014A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF99AD2257EB0B600014A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BC26527AC2453D3098286E /* Pods-HOAInfractions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24QT29QT7F;
+				INFOPLIST_FILE = HOAInfractions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.apent003.HOAInfractions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF99AD3257EB0B600014A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0A60563DDC3BEB17D8D7AB /* Pods-HOAInfractions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24QT29QT7F;
+				INFOPLIST_FILE = HOAInfractions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.apent003.HOAInfractions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF99AB5257EB0B400014A50 /* Build configuration list for PBXProject "HOAInfractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF99ACF257EB0B600014A50 /* Debug */,
+				DDF99AD0257EB0B600014A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF99AD1257EB0B600014A50 /* Build configuration list for PBXNativeTarget "HOAInfractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF99AD2257EB0B600014A50 /* Debug */,
+				DDF99AD3257EB0B600014A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDF99AC6257EB0B400014A50 /* HOAInfractions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDF99AC7257EB0B400014A50 /* HOAInfractions.xcdatamodel */,
+			);
+			currentVersion = DDF99AC7257EB0B400014A50 /* HOAInfractions.xcdatamodel */;
+			path = HOAInfractions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDF99AB2257EB0B400014A50 /* Project object */;
+}

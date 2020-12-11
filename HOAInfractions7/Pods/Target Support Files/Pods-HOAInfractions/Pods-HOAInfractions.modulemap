@@ -1,0 +1,6 @@
+module Pods_HOAInfractions {
+  umbrella header "Pods-HOAInfractions-umbrella.h"
+
+  export *
+  module * { export * }
+}

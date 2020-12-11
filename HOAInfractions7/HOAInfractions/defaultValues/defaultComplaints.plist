@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>complainDescription</key>
+		<string>Person had a party and it lasted till 12 pm</string>
+		<key>infractionType</key>
+		<string>Noise Violation</string>
+		<key>status</key>
+		<string>New</string>
+		<key>latitude</key>
+		<real>25.707404</real>
+		<key>longitude</key>
+		<string>-80.4258234</string>
+		<key>dateOpen</key>
+		<date>2020-12-08T15:48:26Z</date>
+		<key>houseNumber</key>
+		<string>10225</string>
+	</dict>
+	<dict>
+		<key>complainDescription</key>
+		<string>His dog is over 50 lbs</string>
+		<key>houseNumber</key>
+		<string>10234</string>
+		<key>infractionType</key>
+		<string>Pet violation</string>
+		<key>status</key>
+		<string>New</string>
+		<key>latitude</key>
+		<string>25.7246638</string>
+		<key>longitude</key>
+		<string>-80.3775336</string>
+		<key>dateOpen</key>
+		<date>2020-12-08T15:48:26Z</date>
+	</dict>
+	<dict>
+		<key>houseNumber</key>
+		<string>20245</string>
+		<key>complainDescription</key>
+		<string>He still has Halloween Decorations in December.</string>
+		<key>infractionType</key>
+		<string>Off-season holiday decorations</string>
+		<key>status</key>
+		<string>New</string>
+		<key>latitude</key>
+		<string>25.707404</string>
+		<key>longitude</key>
+		<string>-80.4258234</string>
+		<key>dateOpen</key>
+		<date>2020-12-08T15:48:26Z</date>
+	</dict>
+</array>
+</plist>

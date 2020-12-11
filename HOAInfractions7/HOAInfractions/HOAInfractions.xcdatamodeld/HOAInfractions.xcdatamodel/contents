@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Infraction" representedClassName="Infraction" syncable="YES" codeGenerationType="class">
+        <attribute name="adminResponse" optional="YES" attributeType="String"/>
+        <attribute name="complainDescription" optional="YES" attributeType="String"/>
+        <attribute name="dateClosed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateOpen" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="houseNumber" optional="YES" attributeType="String"/>
+        <attribute name="infractionType" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InfractionLists" representedClassName="InfractionLists" syncable="YES" codeGenerationType="class">
+        <attribute name="infractionType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="eMail" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="isAdmin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="zip" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Infraction" positionX="-18" positionY="27" width="128" height="238"/>
+        <element name="InfractionLists" positionX="-36" positionY="9" width="128" height="58"/>
+        <element name="Users" positionX="-54" positionY="-9" width="128" height="208"/>
+    </elements>
+</model>
